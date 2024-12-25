@@ -49,8 +49,7 @@ li {
     padding-left: calc(1.5em + 15px);
     display: list-item /*Ensure it keep the list-item behavior*/
 }
-```
-```css
+
 li::before {
 content:'';
 padding-left: 15px
