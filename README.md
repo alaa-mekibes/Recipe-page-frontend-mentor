@@ -48,6 +48,8 @@ li {
     text-indent: calc(-1em - 15px);
     padding-left: calc(1.5em + 15px);
     display: list-item /*Ensure it keep the list-item behavior*/
+```
+```css
 }
 li::before {
 content:'';
@@ -55,7 +57,7 @@ padding-left: 15px
 }
 ```
 
-- Add border-bottom to table row `<tr>`, in this status we have to add the border-bottom to table column `<td>`.
+- Add `border-bottom` to table row `<tr>`, in this status we have to add the border-bottom to table column `<td>`.
 
 ```css
 td {
@@ -66,7 +68,7 @@ td {
 }
 ```
 
-- We can't add a padding between rows, but in the selector `table` we can add this :
+- We can't add a `padding` between rows, but in the selector `table` we can add this :
 ```css
 table {
 border-spacing: 0px 15px /* horizontal <length> | vertical <length> */
