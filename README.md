@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://alaa-mekibes.github.io/Recipe-page-challenge4
+- Live Site URL: https://alaa-mekibes.github.io/Recipe-page-frontend-mentor
 
 ## My process
 
