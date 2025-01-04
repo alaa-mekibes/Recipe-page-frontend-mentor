@@ -27,6 +27,8 @@ Users should be able to:
 
 ### Links
 
+- Solution link: https://www.frontendmentor.io/solutions/recipe-page-0RYKxSF4_a
+  
 - Live Site URL: https://alaa-mekibes.github.io/Recipe-page-frontend-mentor
 
 ## My process
