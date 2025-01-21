@@ -121,7 +121,7 @@ li::before {
     content:'';
     padding-left: 15px
 }
-/* Start global rules */
+/* End global rules */
 /* Start main */
 main {
     background-color: var(--White);
