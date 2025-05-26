@@ -1,9 +1,7 @@
 /* Start Variables */
 :root {
-        /* Colors */
-
+/* Colors */
 --White: hsl(0, 0%, 100%);
-
 --Stone-100: hsl(30, 54%, 90%);
 --Stone-150: hsl(30, 18%, 87%);
 --Stone-600: hsl(30, 10%, 34%);
@@ -11,44 +9,40 @@
 --Brown-800: hsl(14, 45%, 36%);
 --Rose-800: hsl(332, 51%, 32%);
 --Rose-50: hsl(330, 100%, 98%);
-
-        /* Typography */
-
-    /* Body Copy */
-
---size-paragraph: 16px;
---padding: 100px;
---margin: 30px
+/* Body Copy */
+--size-paragraph: 1rem;
+--padding: 6.25rem;
+--margin: 1.875rem
 }
 /* End Variables */
 /* Start frameworks */
 .border-top {
     border-top: 1px solid var(--Stone-150);
-    padding-top: 20px
+    padding-block-start: 1.25rem
 }
 .margin-section {
-    margin-bottom: 30px
+    margin-block-end: 1.875rem
 }
 /* End frameworks */
 /* Start Fonts */
 @font-face {
     font-family: 'Outfit Black';
-    src: url(fonts/outfit/static/Outfit-Regular.ttf) format(truetype);
+    src: url('fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
     font-weight: 400
 }
 @font-face {
     font-family: 'Outfit Black';
-    src: url(fonts/outfit/static/Outfit-SemiBold.ttf) format(truetype);
+    src: url('fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
     font-weight: 600
 }
 @font-face {
     font-family: 'Outfit Black';
-    src: url(fonts/outfit/static/Outfit-Bold.ttf) format(truetype);
+    src: url('fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
     font-weight: 700
 }
 @font-face {
     font-family: 'young serif';
-    src: url(fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
+    src: url('fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
     font-weight: 400
 }
 /* End Fonts */
@@ -68,23 +62,23 @@ body {
     padding-top: var(--padding);
     padding-bottom: var(--padding)
 }
-@media (max-width: 375px) {
+@media (max-width: 23.4375rem) {
     body {
         padding: 0
     }
 }
 h1, h2 {
-    font-family: 'young serif';
+    font-family: 'young serif', sans-serif;
     font-weight: 400;
     text-transform: capitalize
 }
 h1 {
-    margin-bottom: 15px;
+    margin-block-end: .9375rem;
     color: var(--Stone-900)
 }
 h2 {
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-block-end: 1.25rem;
+    font-size: 1.5625rem;
     color: var(--Brown-800)
 }
 p, li {
@@ -106,12 +100,12 @@ ol li::marker {
     font-weight: 700
 }
 ul li::marker {
-    font-size: 13px
+    font-size: .8125rem
 }
 li {
-    margin-bottom: 13px;
-    text-indent: calc(-1em - 15px);
-    padding-left: calc(1.5em + 15px);
+    margin-block-end: .8125rem;
+    text-indent: calc(-1em - .9375rem);
+    padding-inline-start: calc(1.5em + .9375rem);
     display: list-item
 }
 li::marker {
@@ -119,69 +113,68 @@ li::marker {
 }
 li::before {
     content:'';
-    padding-left: 15px
+    padding-inline-start: .9375rem
 }
 /* End global rules */
 /* Start main */
-main {
+.main_container {
     background-color: var(--White);
-    padding: 30px;
+    padding: 1.875rem;
     border-radius: 20px;
-    flex-basis: 700px
+    flex-basis: 43.75rem
 }
-@media (max-width: 375px) {
-    main {
+@media (max-width: 23.4375rem) {
+    .main_container {
         border-radius: 0;
         padding-top: 0
     }
 }
-main .image {
+.main_container .image {
     display: flex;
     justify-content: center;
-    margin-bottom: 25px
+    margin-block-end: 1.5625rem
 }
-main .image img {
+.main_container .image img {
     max-width: 100%;
     border-radius: 5px
 }
-@media (max-width: 375px) {
-    main .image img {
-        max-width: calc(100% + 60px);
+@media (max-width: 23.4375rem) {
+    .main_container .image img {
+        max-width: calc(100% + 3.75rem);
         border-radius: 0
     }
 }
-main .preparation {
+.main_container .preparation {
     background-color: var(--Rose-50);
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     border-radius: 10px
 }
-main .preparation h2 {
+.main_container .preparation h2 {
     font-family: 'Outfit Black';
     font-weight: 600;
     text-transform: none;
     color: var(--Rose-800);
-    font-size: 18px
+    font-size: 1.125rem
 }
-main .preparation li::marker {
+.main_container .preparation li::marker {
     color: var(--Rose-800);
 }
-main .nutrition table {
+.main_container .nutrition table {
     width: 100%;
-    margin-top: 12px;
-    margin-bottom: -15px;
+    margin-block-start: .75rem;
+    margin-block-end: -.9375rem;
     border-spacing: 0px 15px
 }
-main .nutrition table td {
+.main_container .nutrition table td {
     text-transform: capitalize;
     border-bottom: 1px solid var(--Stone-150);
-    padding-bottom: 15px;
-    padding-left: 30px 
+    padding-block-end: .9375rem;
+    padding-inline-start: 1.875rem 
 }
-main .nutrition table tr:last-child td {
+.main_container .nutrition table tr:last-child td {
     border: none
 }
-main .nutrition table td:last-child {
+.main_container .nutrition table td:last-child {
     color: var(--Brown-800)
 }
-
 /* End main */

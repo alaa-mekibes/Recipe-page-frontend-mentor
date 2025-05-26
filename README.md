@@ -4,13 +4,15 @@ This is a solution to the [NRecipe page challenge on Frontend Mentor](https://ww
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Frontend Mentor - Recipe page](#frontend-mentor---recipe-page)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -23,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot.png)
+![](/assets/images/screenshot.png)
 
 ### Links
 
-- Solution link: https://www.frontendmentor.io/solutions/recipe-page-0RYKxSF4_a
+- [Solution link](https://www.frontendmentor.io/solutions/recipe-page-0RYKxSF4_a)
   
-- Live Site URL: https://alaa-mekibes.github.io/Recipe-page-frontend-mentor
+- [Live Site URL](https://alaa-mekibes.github.io/Recipe-page-frontend-mentor)
 
 ## My process
 
