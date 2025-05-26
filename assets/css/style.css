@@ -59,8 +59,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: var(--padding);
-    padding-bottom: var(--padding)
+    padding-block-start: var(--padding);
+    padding-block-end: var(--padding)
 }
 @media (max-width: 23.4375rem) {
     body {
@@ -126,7 +126,7 @@ li::before {
 @media (max-width: 23.4375rem) {
     .main_container {
         border-radius: 0;
-        padding-top: 0
+        padding-block-start: 0
     }
 }
 .main_container .image {
@@ -150,7 +150,7 @@ li::before {
     border-radius: 10px
 }
 .main_container .preparation h2 {
-    font-family: 'Outfit Black';
+    font-family: 'Outfit Black', sans-serif;
     font-weight: 600;
     text-transform: none;
     color: var(--Rose-800);
